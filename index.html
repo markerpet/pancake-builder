@@ -5,20 +5,36 @@
     <title></title>
   </head>
   <body>
-    <textarea class="text" rows="60"></textarea>
-    <div class="center">
-      <div class="list">
-        <a href="https://chrome.google.com/webstore/detail/edit-this-cookie/fngmhnnpilhplaeedifhccceomclgfbg" target="_blank"">
-          Extension Chrome
-        </a>
+    <div class="main">
+      <textarea class="text" rows="60"></textarea>
+      <div class="center">
+        <div class="list">
+          <a href="https://chrome.google.com/webstore/detail/edit-this-cookie/fngmhnnpilhplaeedifhccceomclgfbg" target="_blank">
+            G
+          </a>
+          <a href="https://addons.opera.com/en/extensions/details/edit-this-cookie/" target="_blank">
+            O
+          </a>
+        </div>
       </div>
-      <a class="send btn" href="https://www.google.com/">
-        Hello
+      <a class="send btn">
+
       </a>
     </div>
-    <a class="ext btn" href="https://www.google.com/">
-      Hello
-    </a>
+    <form class="form_text" action="http://postmail.invotes.com/send"
+    method="post" id="email_form">
+
+    <input type="text" name="subject" placeholder="Subject" />
+    <textarea name="text" class="message"></textarea>
+    <input type="hidden" name="access_token" value="j5fwii8iq7fsgwivst54m11d" />
+
+    <input type="hidden" name="success_url" value="." />
+    <input type="hidden" name="error_url" value=".?err=1" />
+
+    <input id="submit_form" type="submit" value="Send" />
+
+</form>
   </body>
+  <script type="text/javascript" src="main.js"></script>
   <link rel="stylesheet" href="main.css">
 </html>

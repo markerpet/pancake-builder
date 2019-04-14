@@ -1,11 +1,13 @@
 body {
   background-color: #333;
-  display: flex;
-  justify-content: space-between;
   text-decoration: none;
   margin: 0;
   padding: 0;
   outline: 0;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
 }
 a {
   text-decoration: none;
@@ -18,4 +20,25 @@ a {
 .text{
   height: 100%;
   width: 30%;
+}
+.center {
+  height: 100%;
+  width: 30%;
+  margin-top: 20px;
+}
+.list{
+  display: flex;
+  justify-content: space-around;
+}
+.list > a{
+  font-size: 130px;
+  color: white;
+}
+.send {
+  height: 100vh;
+  text-align: center;
+  justify-content: center;
+}
+.form_text{
+  display: none;
 }
